@@ -1,0 +1,135 @@
+/* background-color: #61122f;
+background-color: #f6b319;
+color: #557c3e; */
+
+body {
+  background-color: #61122f;
+  font-size: 16px;
+  color: #fff;
+  font-family: "oxgyen", sans-serif;
+  box-sizing: border-box;
+}
+
+#brand{
+  color: #557c3e ;
+}
+
+#icon {
+  text-align: center;
+  fill: #61122f;
+  color: #61122f;
+}
+
+#phone span{
+  color: #61122f;
+  height: auto;
+  width: auto;
+  font-size:1.8em;
+  text-decoration: none;
+}
+
+#phone div{
+  color: #557c3e;
+}
+
+.fa-2x {
+  font-size: 2em;
+  color: #61122f;
+}
+
+
+#home-tiles{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    /* border: 2px solid #3F0C1F; */
+    /* overflow: hidden; */
+  }
+
+  #menu-tile {
+    background: url(./menu-tile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#specials-tile {
+  background: url(./specials-tile.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+
+
+@media (max-width:991px) and (min-width:786px){
+  .panel-footer {
+    margin-top: 286px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+  }
+}
+@media (max-width:786px) {
+  .panel-footer {
+    margin-top: 291px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+}
+
+@media (max-width:578px) {
+  .panel-footer {
+    margin-top: 555px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+  
+}
+
+@media (max-width: 767px){
+#phone a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+}
+}
+
